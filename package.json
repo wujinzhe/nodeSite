@@ -10,8 +10,12 @@
     "cookie-parser": "~1.4.3",
     "debug": "~2.2.0",
     "ejs": "~2.5.2",
-    "express": "~4.14.0",
+    "express": "^4.14.1",
+    "less": "^2.7.2",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
   }
 }
