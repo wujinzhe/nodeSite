@@ -1,0 +1,28 @@
+// LESS related
+@import "publicVariables.less";
+
+
+html,body{
+    height:100%;
+}
+
+/*头部*/
+.ib-head{
+    background-color:@ib-head-backgroundcolor;
+    height:@ib-head-height;
+    // border-bottom-width:1px;
+    // border-bottom-style:solid;
+    // border-bottom-color:@ib-head-border-bottom-color;
+}
+
+/*菜单栏 侧边栏*/
+.ib-side-menu{
+    width:@ib-side-menu-width;
+    height:100%;
+    height:calc(~"100% - @{ib-head-height} - 1px");
+    height:-webkit-calc(~"100% - @{ib-head-height} - 1px");
+
+    border-right:1px solid @ib-side-menu-border-left-color;
+    float:left;
+    background-color:@ib-side-menu-backgroundcolor;
+}

@@ -4,17 +4,47 @@
     <head>
         <meta charset="utf-8">
         <title></title>
-        <link rel="stylesheet" href="src/uikit/css/uikit.min.css">
+        <link rel="stylesheet" href="../src/uikit/css/uikit.min.css">
+        <link rel="stylesheet" href="../src/css/public.css">
 
+        <script src="//cdn.bootcss.com/jquery/1.10.0/jquery.min.js"></script>
+        <script type="text/javascript" src="../src/uikit/js/uikit.min.js"></script>
     </head>
     <body>
-        <div class="head">
-          <div class="">
+        <div class="ib-head">
 
-          </div>
         </div>
-        <div class="slideMenu">
-
-      </div>
+        <div class="ib-side-menu">
+            <ul class="uk-nav uk-nav-side uk-nav-parent-icon" data-uk-nav>
+                <li class="uk-active">
+                    <a href="#">菜单一</a>
+                </li>
+                <li>
+                    <a href="#">菜单一</a>
+                </li>
+                <li class="uk-parent">
+                    <a href="#">菜单一</a>
+                    <!-- <div class=""> -->
+                    <ul class="uk-nav-sub">
+                        <li>
+                            <a href="#">二级菜单</a>
+                        </li>
+                        <li>
+                            <a href="#">二级菜单</a>
+                        </li>
+                    </ul>
+                    <!-- </div> -->
+                </li>
+                <li class="uk-active">
+                    <a href="#">菜单一</a>
+                </li>
+                <li>
+                    <a href="#">菜单一</a>
+                </li>
+                <li>
+                    <a href="#">菜单一</a>
+                </li>
+            </ul>
+        </div>
     </body>
 </html>

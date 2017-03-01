@@ -54,9 +54,23 @@ gulp.task('watchUikitCssChange',function(){
 	gulp.watch('bower_components/uikit/core/*.css',['uikitCoreCssMinify']);
 });
 //监听编译
-gulp.task('watchUikitCssCompile',['watchUikitLessChange','watchUikitCssChange']);
+gulp.task('watchUikitCssCompile',['compileLess']);
 //直接编译
 gulp.task('uikitCssCompile',['compileLess']);
+
+
+//后台public.less文件的编译
+gulp.task('adminPublicCompile',function(){
+	gulp.src('public/src/less/public.less')
+		.pipe(less())
+		.pipe(gulp.dest('public/src/css/'));
+});
+
+
+
+gulp.task('watchAdminPublicCompile',function(){
+	gulp.watch('public/src/less/public*.less',['adminPublicCompile']);
+});
 
 
 gulp.task('server',function(){

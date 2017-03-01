@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+}
+/*头部*/
+.ib-head {
+  background-color: #252525;
+  height: 70px;
+}
+/*菜单栏 侧边栏*/
+.ib-side-menu {
+  width: 270px;
+  height: 100%;
+  height: calc(100% - 70px - 1px);
+  height: -webkit-calc(100% - 70px - 1px);
+  border-right: 1px solid #333;
+  float: left;
+  background-color: #333;
+}
