@@ -9,7 +9,7 @@ body {
 }
 /*菜单栏 侧边栏*/
 .ib-side-menu {
-  width: 270px;
+  width: 220px;
   height: 100%;
   height: calc(100% - 70px - 1px);
   height: -webkit-calc(100% - 70px - 1px);
