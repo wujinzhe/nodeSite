@@ -6,6 +6,20 @@ body {
 .ib-head {
   background-color: #252525;
   height: 70px;
+  position: relative;
+}
+.ib-head-logo {
+  width: 180px;
+  padding-top: 5px;
+  padding-left: 7px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.ib-head-title {
+  color: white;
+  font-size: 30px;
+  display: inline-block;
+  vertical-align: middle;
 }
 /*菜单栏 侧边栏*/
 .ib-side-menu {

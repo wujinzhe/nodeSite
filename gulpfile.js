@@ -67,7 +67,7 @@ gulp.task('adminPublicCompile',function(){
 });
 
 
-
+// 监听变异public.less 文件
 gulp.task('watchAdminPublicCompile',function(){
 	gulp.watch('public/src/less/public*.less',['adminPublicCompile']);
 });
