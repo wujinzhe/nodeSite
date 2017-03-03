@@ -21,6 +21,23 @@ body {
   display: inline-block;
   vertical-align: middle;
 }
+.ib-head-user {
+  position: absolute;
+  bottom: 5px;
+  right: 100px;
+  font-size: 16px;
+}
+.ib-head-user span {
+  color: #fff;
+}
+.ib-head-user .ib-head-user-info {
+  text-decoration: underline;
+  color: #ff6a00;
+}
+.ib-head-user .ib-head-user-exit {
+  margin-left: 30px;
+  color: #ff6a00;
+}
 /*菜单栏 侧边栏*/
 .ib-side-menu {
   width: 220px;

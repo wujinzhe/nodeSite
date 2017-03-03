@@ -28,6 +28,23 @@ html,body{
     display:inline-block;
     vertical-align: middle;
 }
+.ib-head-user{
+    position:absolute;
+    bottom:@ib-head-user-bottom;
+    right:@ib-head-user-right;
+    font-size:@ib-head-user-fontsize;
+    span{
+        color:@ib-head-user-tab-color;
+    }
+    .ib-head-user-info{
+        text-decoration:underline;
+        color:@ib-head-user-name-color;
+    }
+    .ib-head-user-exit{
+        margin-left:@ib-head-user-exit-left;
+        color:@ib-head-user-exit-color;
+    }
+}
 
 /*菜单栏 侧边栏*/
 .ib-side-menu{
