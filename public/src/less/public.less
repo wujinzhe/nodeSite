@@ -4,6 +4,7 @@
 
 html,body{
     height:100%;
+
 }
 
 /*头部*/
@@ -56,4 +57,12 @@ html,body{
     border-right:1px solid @ib-side-menu-border-left-color;
     float:left;
     background-color:@ib-side-menu-backgroundcolor;
+}
+// 内容
+.ib-content{
+    background-color:@ib-content-backgroundcolor;
+    height:100%;
+    height:calc(~"100% - @{ib-head-height} - 1px");
+    height:-webkit-calc(~"100% - @{ib-head-height} - 1px");
+    margin-left:@ib-side-menu-width;
 }

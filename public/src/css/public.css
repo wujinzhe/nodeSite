@@ -48,3 +48,10 @@ body {
   float: left;
   background-color: #333;
 }
+.ib-content {
+  background-color: #eaeaea;
+  height: 100%;
+  height: calc(100% - 70px - 1px);
+  height: -webkit-calc(100% - 70px - 1px);
+  margin-left: 220px;
+}
